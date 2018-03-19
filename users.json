@@ -1,0 +1,30 @@
+[
+    {
+        "username": "yonay",
+        "name": "chistaco",
+        "email": "yonaycl@gmail.com",
+        "tweets": [
+            {
+                "id": 0,
+                "text": "holi",
+                "owner": "yonay",
+                "createdAt": "today"
+            }
+        ],
+        "id": 0
+    },
+    {
+        "username": "luna",
+        "name": "perra",
+        "email": "lunacl@gmail.com",
+        "tweets": [
+            {
+                "id": 0,
+                "text": "que paso mi gente",
+                "owner": "luna",
+                "createdAt": "today"
+            }
+        ],
+        "id": 1
+    }
+]
