@@ -1,5 +1,5 @@
 {
-  "name": "usingexpress",
+  "name": "back",
   "version": "1.0.0",
   "description": "",
   "main": "useExpress.js",
@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
+    "g": "^2.0.1",
     "lodash": "^4.17.5",
     "nodemon": "^1.17.2"
   }

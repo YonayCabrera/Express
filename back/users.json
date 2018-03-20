@@ -11,7 +11,7 @@
                 "createdAt": "today"
             }
         ],
-        "id": 0
+        "id": "yonaycl@gmail.com"
     },
     {
         "username": "luna",
@@ -25,6 +25,13 @@
                 "createdAt": "today"
             }
         ],
-        "id": 1
+        "id": "lunacl@gmail.com"
+    },
+    {
+        "name": "fraan",
+        "username": "fraaaaan",
+        "email": "asdas",
+        "tweets": [],
+        "id": "asdas"
     }
 ]

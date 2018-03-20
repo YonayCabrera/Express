@@ -1,11 +1,13 @@
 const http = require('http');
 const express = require('express');
 const fs = require('fs');
+const cors = require('cors');
 const _ = require('lodash');
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
+
 
 app.get('/users/:id', (req, res) => {
     var users = readFile();
@@ -21,7 +23,7 @@ app.get('/users', (req, res) => {
 app.post('/users', (req, res) => {
     var user = req.body;
     var usersArray = readFile();
-    user.id = usersArray.length;
+    user.id = user.email;
     if (!repeatEmail(usersArray, user)) {
         usersArray.push(user);
         fs.writeFileSync('users.json', JSON.stringify(usersArray))
