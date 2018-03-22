@@ -20,6 +20,7 @@ export default {
   created() {
     axios.get(`http://localhost:5000/users`)
     .then(response => {
+      console.log(response)
       this.posts = response.data
     })
     .catch(e => {

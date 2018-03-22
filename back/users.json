@@ -5,10 +5,12 @@
         "email": "yonaycl@gmail.com",
         "tweets": [
             {
-                "id": 0,
-                "text": "holi",
-                "owner": "yonay",
-                "createdAt": "today"
+                "id": "yonaycl@gmail.com1521632389453",
+                "owner": "chistaco",
+                "createdAt": 1521632389453,
+                "text": {
+                    "text": "jeje"
+                }
             }
         ],
         "id": "yonaycl@gmail.com"
@@ -19,10 +21,12 @@
         "email": "lunacl@gmail.com",
         "tweets": [
             {
-                "id": 0,
-                "text": "que paso mi gente",
-                "owner": "luna",
-                "createdAt": "today"
+                "id": "lunacl@gmail.com1521632399453",
+                "owner": "chistaco",
+                "createdAt": 1521632399453,
+                "text": {
+                    "text": "jeje"
+                }
             }
         ],
         "id": "lunacl@gmail.com"
@@ -33,5 +37,19 @@
         "email": "asdas",
         "tweets": [],
         "id": "asdas"
+    },
+    {
+        "username": "eduardo",
+        "name": "ortega",
+        "email": "eortega@gmail.com",
+        "tweets": [],
+        "id": "eortega@gmail.com"
+    },
+    {
+        "username": "jhonatan",
+        "name": "faber",
+        "email": "jhonatan@gmail.com",
+        "tweets": [],
+        "id": "jhonatan@gmail.com"
     }
 ]
